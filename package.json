@@ -19,6 +19,7 @@
     "next": "^13.5.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-router-dom": "^6.18.0",
     "save-dev": "^0.0.1-security",
     "sharp": "^0.31.3"
   },
@@ -28,6 +29,7 @@
     "@types/node": "18.11.3",
     "@types/react": "18.0.21",
     "@types/react-dom": "18.0.6",
+    "@types/react-router-dom": "^5.3.3",
     "@typescript-eslint/eslint-plugin": "^5.61.0",
     "@typescript-eslint/parser": "^5.61.0",
     "autoprefixer": "^10.4.16",
