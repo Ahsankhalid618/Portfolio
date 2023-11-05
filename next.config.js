@@ -5,7 +5,7 @@ module.exports = {
     remotePatterns: [
       {
         protocol: 'https',
-        hostname: 'user-images.githubusercontent.com',
+        hostname: 'raw.githubusercontent.com',
         pathname: '/**',
       },
       {

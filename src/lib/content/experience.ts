@@ -1,45 +1,46 @@
-import { ExperienceSectionType } from '@/lib/types/sections'
+import { ExperienceSectionType } from '@/lib/types/sections';
 
 export const experienceSection: ExperienceSectionType = {
-    title: "where i've worked",
-    experiences: [
+  title: "where i've worked",
+  experiences: [
     {
-        company: 'Pixelwand',
-        companyUrl: 'https://www.pixelwand.live/',
-        role: 'frontend developer',
-        started: 'july 2023',
-        upto: 'present',
-        tasks: [
-        'Implemented UI components with React & Next.js, TypeScript & Tailwind CSS.',
-        'Developed and maintained design systems that separates design logic.',
-        'Understanding client needs and proposing effective solutions, which also involves strategising and planning.',
-        'Lead a cross-functional team of developers and designers in the creation of a SaaS product.',
-        ],
+      company: "Sync Intern's",
+      companyUrl: 'https://www.syncinterns.com/',
+      role: 'React Developer',
+      started: 'March 2023',
+      upto: 'April 2023',
+      tasks: [
+        'Built dynamic User interfaces using React.js',
+        'Integrated APIs and Firebase for data management',
+        'Implemented AI-powered features using OpenAI',
+        'Gained hands-on experience developing web applications using modern technologies and tools',
+      ],
     },
     {
-        company: 'SHMTH Capital',
-        companyUrl: 'https://shmth.capital/',
-        role: 'frontend developer intern',
-        started: 'april 2023',
-        upto: 'july 2023',
-        tasks: [
-        'Built trading platform using TradingView library.',
-        'Designed SHMTH Capital website with Next.js, TypeScript & TailwindCSS.',
-        'Collaborated with diverse nationwide team of developers.',
-        ],
+      company: 'Upwork-Freelance',
+      companyUrl: 'https://www.upwork.com/',
+      role: 'frontend developer ',
+      started: 'November 2020',
+      upto: 'December 2022',
+      tasks: [
+        'Resolved JavaScript-related issues for clients, ensuring smooth app performance.',
+        'Built small-scale web apps with vanilla JS, demonstrating creativity and adaptability.',
+        'Created visually appealing and responsive user interfaces using CSS3, Bootstrap5, and Tailwind-CSS.',
+        'Consistently delivered successful projects, exceeding client expectations.',
+      ],
     },
     {
-        company: 'webnetics',
-        companyUrl: 'https://webnetic.vercel.app/',
-        role: 'frontend developer',
-        started: 'june 2022',
-        upto: 'january 2023',
-        tasks: [
-        'Built static frontend UI from the ground up using Next.js and Figma handover designs.',
-        'Architected the folder structure and initial setup of the app.',
-        'Reviewed and approved multiple Pull requests.',
-        'Worked remotely with a distributed team from around the globe, collaborating closely using screen-sharing.',
-        ],
+      company: 'Fiverr-Freelance',
+      companyUrl: 'https://www.fiverr.com/',
+      role: 'frontend developer',
+      started: 'March 2020',
+      upto: 'December 2022',
+      tasks: [
+        'Delivered pixel-perfect Precision and responsive user experiences',
+        'Passionate problem-solver with a keen eye for detail, committed to exceeding client expectations.',
+        'Skilled in crafting dynamic and interactive user interfaces, using CSS3, Bootstrap5, and Tailwind CSS',
+        'Adaptable and Collaborative with experience working with diverse clients from various backgrounds.',
+      ],
     },
-    ],
+  ],
 };
