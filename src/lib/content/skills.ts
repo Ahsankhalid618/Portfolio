@@ -1,6 +1,6 @@
 import { SkillsSectionType } from '@/lib/types/sections'
 import { getId } from '@/lib/utils/helper'
-import {Link} from '@/components';
+
 
 
 export const skillsSection: SkillsSectionType = {
