@@ -1,14 +1,12 @@
-import { SkillsSectionType } from '@/lib/types/sections'
-import { getId } from '@/lib/utils/helper'
-
-
+import { SkillsSectionType } from '@/lib/types/sections';
+import { getId } from '@/lib/utils/helper';
 
 export const skillsSection: SkillsSectionType = {
   title: 'what i do',
   skills: [
     {
       id: getId(),
-      title: 'Front end development',
+      title: 'Full stack development',
       // animation lottie file: https://lottiefiles.com/
       lottie: {
         light: '/lotties/frontend.json',
@@ -21,22 +19,24 @@ export const skillsSection: SkillsSectionType = {
       ],
       softwareSkills: [
         // iconify icons: https://icon-sets.iconify.design/
-        { name: 'html-5', icon: 'vscode-icons:file-type-html' },
-        { name: 'CSS-3', icon: 'vscode-icons:file-type-css' },
-        { name: 'sass', icon: 'vscode-icons:file-type-sass' },
+        { name: 'nextjs', icon: 'logos:nextjs-icon' },
+        { name: 'reactjs', icon: 'logos:react' },
+        { name: 'redux', icon: 'logos:redux' },
+        { name: 'nodejs', icon: 'logos:nodejs-icon' },
+        { name: 'ExpressJs', icon: 'simple-icons:express' },
+        { name: 'mongoDB', icon: 'logos:mongodb-icon' },
+        { name: 'Firebase', icon: 'vscode-icons:file-type-firebase' },
         { name: 'tailwindcss', icon: 'logos:tailwindcss-icon' },
-        { name: 'javaScript', icon: 'vscode-icons:file-type-js-official' },
+        { name: 'sass', icon: 'vscode-icons:file-type-sass' },
+
+        // { name: 'javaScript', icon: 'vscode-icons:file-type-js-official' },
         {
           name: 'typeScript',
           icon: 'vscode-icons:file-type-typescript-official',
         },
-        { name: 'nodejs', icon: 'logos:nodejs-icon' },
-        { name: 'reactjs', icon: 'logos:react' },
-        { name: 'nextjs', icon: 'logos:nextjs-icon' },
+
         // { name: 'angularjs', icon: 'logos:angular-icon' },
 
-        { name: 'redux', icon: 'logos:redux' },
-        { name: 'database', icon: 'vscode-icons:file-type-firebase' },
         { name: 'Git', icon: 'vscode-icons:file-type-git' },
       ],
     },

@@ -4,6 +4,20 @@ export const experienceSection: ExperienceSectionType = {
   title: "where i've worked",
   experiences: [
     {
+      company: "Bytewise Limited",
+      companyUrl: 'https://www.bytewiseltd.com/',
+      role: 'Bytewise Next.js Fellow',
+      started: 'June 2024',
+      upto: 'September 2024',
+      tasks: [
+        'Developed and optimized user interfaces using Next.js and React.js',
+        'Integrated and consumed RESTful APIs for dynamic data handling',
+        'Implemented responsive and accessible design practices',
+        'Collaborated on full-stack solutions, enhancing overall application performance'
+      ],
+    }
+,    
+    {
       company: "Sync Intern's",
       companyUrl: 'https://www.syncinterns.com/',
       role: 'React Developer',
