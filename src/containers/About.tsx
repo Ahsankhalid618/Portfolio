@@ -24,12 +24,12 @@ const About = () => {
       <main className="flex flex-col items-center gap-16 lg:items-start lg:flex-row">
         <div className="space-y-4 lg:w-3/5 text-justify">
           <p>
-            Hi, I am Ahsan Khalid,a recent graduate with a BS in Software Engineering from <Link
+            Hi, I am Ahsan Khalid, a recent graduate with a BS in Software Engineering from <Link
               href="https://szabist-isb.edu.pk/"
               target="_blank"
               className="text-accent"
             >
-              Szabist-Islamabad Pakistan. 
+              Szabist Islamabad - Pakistan. 
             </Link>
             I’m passionate about full-stack web development and skilled in using Next.js for both front-end and back-end solutions. My expertise extends to Node.js and Express.js for robust server-side development, with MongoDB and PostgreSQL handling diverse data needs. I focus on creating dynamic, responsive, and visually engaging web applications, and am proficient in JavaScript (ES6), CSS3, and Tailwind CSS. Additionally, I leverage Firebase for real-time functionalities and Git for effective project management and collaboration. Dedicated to user-centered design, I continually explore new technologies and trends to enhance my craft.
           </p>
