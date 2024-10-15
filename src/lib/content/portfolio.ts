@@ -15,20 +15,20 @@ export const author = {
 };
 
 export const seoData = {
-  title: 'Ahsan Khalid | Front-End Developer',
+  title: 'Ahsan Khalid | Full stack Developer',
   description:
-    'Ahsan Khalid is a front-end developer who specializes in building (and occasionally designing) exceptional visual interfaces.',
+    'Ahsan Khalid is a fullstack developer who specializes in building (and occasionally designing) exceptional visual interfaces.',
   author: author.name,
   image:
     '',
   url: 'https://github.com/Ahsankhalid618/',
   keywords: [
     'Ahsan',
-    'Ahsan Singh',
+    'Ahsan khalid',
     '@Ahsankhalid',
     'Ahsankhalid',
     'Portfolio',
     'Ahsan Portfolio ',
-    'Ahsan Singh Portfolio',
+    'Ahsan khalid Portfolio',
   ],
 };
