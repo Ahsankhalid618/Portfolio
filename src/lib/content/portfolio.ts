@@ -15,7 +15,7 @@ export const author = {
 };
 
 export const seoData = {
-  title: 'Ahsan Khalid | Full stack Developer',
+  title: 'Ahsan Khalid | Full Stack Developer',
   description:
     'Ahsan Khalid is a fullstack developer who specializes in building (and occasionally designing) exceptional visual interfaces.',
   author: author.name,

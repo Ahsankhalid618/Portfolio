@@ -30,8 +30,7 @@ const About = () => {
               className="text-accent"
             >
               Szabist Islamabad - Pakistan. 
-            </Link>
-            I’m passionate about full-stack web development and skilled in using Next.js for both front-end and back-end solutions. My expertise extends to Node.js and Express.js for robust server-side development, with MongoDB and PostgreSQL handling diverse data needs. I focus on creating dynamic, responsive, and visually engaging web applications, and am proficient in JavaScript (ES6), CSS3, and Tailwind CSS. Additionally, I leverage Firebase for real-time functionalities and Git for effective project management and collaboration. Dedicated to user-centered design, I continually explore new technologies and trends to enhance my craft.
+            </Link> I’m passionate about full-stack web development and skilled in using Next.js for both front-end and back-end solutions. My expertise extends to Node.js and Express.js for robust server-side development, with MongoDB and PostgreSQL handling diverse data needs. I focus on creating dynamic, responsive, and visually engaging web applications, and am proficient in JavaScript (ES6), CSS3, and Tailwind CSS. Additionally, I leverage Firebase for real-time functionalities and Git for effective project management and collaboration. Dedicated to user-centered design, I continually explore new technologies and trends to enhance my craft.
           </p>
           <h2>
             <b>Volunteering :</b>
