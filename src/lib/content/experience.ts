@@ -3,58 +3,46 @@ import { ExperienceSectionType } from '@/lib/types/sections';
 export const experienceSection: ExperienceSectionType = {
   title: "where i've worked",
   experiences: [
+    
     {
-      company: "Bytewise Limited",
-      companyUrl: 'https://www.bytewiseltd.com/',
-      role: 'Bytewise Next.js Fellow',
-      started: 'June 2024',
-      upto: 'September 2024',
+      company: "Web Evolution",
+      companyUrl: 'https://webevolutioncompany.com/',
+      role: 'Associate Software Engineer',
+      started: 'October 2023',
+      upto: 'Present',
       tasks: [
-        'Developed and optimized user interfaces using Next.js and React.js',
-        'Integrated and consumed RESTful APIs for dynamic data handling',
-        'Implemented responsive and accessible design practices',
-        'Collaborated on full-stack solutions, enhancing overall application performance'
-      ],
-    }
-,    
-    {
-      company: "Sync Intern's",
-      companyUrl: 'https://www.syncinterns.com/',
-      role: 'React Developer',
-      started: 'March 2023',
-      upto: 'April 2023',
-      tasks: [
-        'Built dynamic User interfaces using React.js',
-        'Integrated APIs and Firebase for data management',
-        'Implemented AI-powered features using OpenAI',
-        'Gained hands-on experience developing web applications using modern technologies and tools',
+        'Developed real time solutions like websockets with Node, streamlining data retrieval for improved site performance',
+        'Developed responsive AI solutions with React applications, boosting user engagement and increasing retention by 25%',
+        'Optimized and refactored code, reducing load times by 15% and boosting site performance across multiple platforms',
+        'Developed Saas solution with React, NextJs, and MongoDB, improving quality and data management efficiency by 30%',
       ],
     },
     {
       company: 'Upwork-Freelance',
       companyUrl: 'https://www.upwork.com/',
-      role: 'frontend developer ',
-      started: 'November 2020',
-      upto: 'December 2022',
+      role: 'Software Engineer',
+      started: 'August 2023',
+      upto: 'Present',
       tasks: [
-        'Resolved JavaScript-related issues for clients, ensuring smooth app performance.',
-        'Built small-scale web apps with vanilla JS, demonstrating creativity and adaptability.',
-        'Created visually appealing and responsive user interfaces using CSS3, Bootstrap5, and Tailwind-CSS.',
+        'Developed custom web applications using React, Node.js, and Next.Js, improving client satisfaction and efficiency.',
+        'Implemented end-to-end AI LLM solutions for clients, building real time dashboards and integrating third-party services.',
+        'Developed real time features with WebSockets, optimizing the server-side and client-side code for seamless data flow',
         'Consistently delivered successful projects, exceeding client expectations.',
       ],
     },
     {
-      company: 'Fiverr-Freelance',
-      companyUrl: 'https://www.fiverr.com/',
-      role: 'frontend developer',
-      started: 'March 2020',
-      upto: 'December 2022',
+      company: "Bytewise Limited",
+      companyUrl: 'https://www.bytewiseltd.com/',
+      role: 'Intern Software Engineer',
+      started: 'May 2023',
+      upto: 'September 2023',
       tasks: [
-        'Delivered pixel-perfect Precision and responsive user experiences',
-        'Passionate problem-solver with a keen eye for detail, committed to exceeding client expectations.',
-        'Skilled in crafting dynamic and interactive user interfaces, using CSS3, Bootstrap5, and Tailwind CSS',
-        'Adaptable and Collaborative with experience working with diverse clients from various backgrounds.',
+        'Developed 100+ user-facing features in NextJs and Node, reducing latency by 20% and improving overall optimization',
+        'Developed and optimized REST API’s with ReactJs and NextJs, enhancing dataset retrieval by 30% for 10k+ requests.',
+        'Improved and optimized site performance by 25% for 1,000+ daily visitors through advanced Redux and Next.js SSR.',
+        'Contributed to product improvements by implementing scalable web services in a cloud environment like (AWS, GCP).'
       ],
-    },
+    }
+,    
   ],
 };
