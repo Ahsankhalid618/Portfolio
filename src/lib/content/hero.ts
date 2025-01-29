@@ -1,16 +1,16 @@
-import { HeroSectionType } from '@/lib/types/sections'
-import { resumeFileName } from '@/lib/utils/config'
+import { HeroSectionType } from '@/lib/types/sections';
+import { resumeFileName } from '@/lib/utils/config';
 
 export const heroSection: HeroSectionType = {
-    subtitle: 'Hi, my name is',
-    title: 'Ahsan Khalid.',
-    tagline: 'I create visually pleasing solutions for the web.',
-    description:
-    "I'm a Full-Stack Web Developer who turns ideas into dynamic web experiences. With Next.js for both front-end and back-end, Node.js and Express.js for powerful server-side solutions, and MongoDB and PostgreSQL for versatile data management.",
-    specialText: 'Currently available for a job & freelance',
-    cta: {
-        title: 'see my resume',
-        url: `/${resumeFileName}`,
-        hideInDesktop: true,
-    },
+  subtitle: 'Hi, my name is',
+  title: 'Ahsan Khalid.',
+  tagline: 'I build complex ideas into scalable web ecosystems',
+  description:
+    'I design and deploy full-stack solutions that solve real-world problems, From dynamic SaaS platforms to fully AI-integrated web applications. My toolkit? Next.js for speed, Node.js for power, and SQL/NoSQL databases for precision.',
+  specialText: 'Currently available for a job & freelance',
+  cta: {
+    title: 'see my resume',
+    url: `/${resumeFileName}`,
+    hideInDesktop: true,
+  },
 };
