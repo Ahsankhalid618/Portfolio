@@ -9,6 +9,7 @@ import { slideUp } from '@/styles/animations';
 
 import { motion } from 'framer-motion';
 import Link from 'next/link';
+import Image from 'next/image';
 
 const Hero = () => {
   const { cta, subtitle, title, tagline, description, specialText } =
@@ -75,10 +76,12 @@ const Hero = () => {
           className="text-accent flex items-center"
         >
           {specialText}
-          <img
+          <Image
             src="/upwork.svg"
             alt="Upwork Logo"
-            className="inline-block ml-[1rem] w-28 h-auto"
+            width={112}
+            height={112} 
+            className="inline-block ml-[1rem]"
           />
         </Link>
       </motion.p>

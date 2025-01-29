@@ -1,4 +1,5 @@
 import { Icon } from '@iconify/react';
+import Image from 'next/image';
 
 type Props = {
   src: string;
@@ -21,11 +22,29 @@ const SkillIcon = ({ src, name }: Props) => {
       } dark:shadow-xl h-14 w-14 sm:h-16 sm:w-16 place-items-center group`}
     >
       {isMajorLeagueHacking ? (
-        <img src="/mlh.svg" alt="Major League Hacking" className="w-10 h-10" />
+        <Image
+          src="/mlh.svg"
+          alt="Major League Hacking"
+          width={40}
+          height={40}
+          className="w-10 h-10"
+        />
       ) : isDevpost ? (
-        <img src="/devpost.svg" alt="Devpost" className="w-10 h-10" />
+        <Image
+          src="/devpost.svg"
+          alt="Devpost"
+          width={40}
+          height={40}
+          className="w-10 h-10"
+        />
       ) : isGSSOC ? (
-        <img src="/gssoc.png" alt="GSSOC" className="w-10 h-10" />
+        <Image
+          src="/gssoc.png"
+          alt="GSSOC"
+          width={40}
+          height={40}
+          className="w-10 h-10"
+        />
       ) : (
         <Icon icon={src} width="32" height="32" style={{ color: iconColor }} />
       )}
