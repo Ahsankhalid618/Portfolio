@@ -24,19 +24,19 @@ const About = () => {
       <main className="flex flex-col items-center gap-16 lg:items-start lg:flex-row">
         <div className="space-y-4 lg:w-3/5 text-justify">
           <p>
-            Hi, I am Ahsan Khalid, a recent graduate with a BS in Software Engineering from <Link
+          Hi, I’m Ahsan Khalid, a graduate with a BS in Software Engineering from <Link
               href="https://szabist-isb.edu.pk/"
               target="_blank"
               className="text-accent"
             >
               Szabist Islamabad - Pakistan. 
-            </Link> I’m passionate about full-stack web development and skilled in using Next.js for both front-end and back-end solutions. My expertise extends to Node.js and Express.js for robust server-side development, with MongoDB and PostgreSQL handling diverse data needs. I focus on creating dynamic, responsive, and visually engaging web applications, and am proficient in JavaScript (ES6), CSS3, and Tailwind CSS. Additionally, I leverage Firebase for real-time functionalities and Git for effective project management and collaboration. Dedicated to user-centered design, I continually explore new technologies and trends to enhance my craft.
+            </Link> I specialize in crafting scalable, AI-driven web solutions using modern full-stack technologies. With 3+ years of hands-on experience, I excel in leveraging Next.js, React, and Node.js to build performant SaaS applications, real-time systems, and LLM-integrated platforms that solve complex user problems. My expertise spans end-to-end development, from architecting AI/LLM solutions (like OCR text extraction and chatbots) to optimizing server-side performance with Express.js, MongoDB, and PostgreSQL. I engineered AI-powered React applications that boosted user retention, while my freelance work on Upwork involved deploying custom LLM dashboards and WebSocket-driven features to streamline client workflows.
           </p>
           <h2>
-            <b>Volunteering :</b>
+            <b className='text-accent'>Activities :</b>
           </h2>
           <p>
-            Outside of academics, I was actively involved in the tech community. I served as an Ex-Microsoft Learn Student Ambassador (MLSA-BETA) and was the Membership Coordinator at MLSA-Szabist Islamabad. In these roles, I facilitated knowledge sharing and collaboration among students and professionals, contributing to a vibrant and engaged tech community.
+          As a <strong>Microsoft Learn Student Ambassador</strong> and <strong>Membership Coordinator</strong> at MLSA-SZABIST, I organized tech workshops and events, bridging academia and industry trends while fostering innovation. Passionate about open-source, I actively contribute to global projects through <strong>Hacktoberfest</strong> and <strong>GSSoC</strong>, enhancing my collaborative coding and technical expertise. I excel in fast-paced, collaborative settings, having competed in <strong>META HackerCup</strong>, <strong>NASA Space Apps</strong>, and <strong>MLH hackathons</strong>, where I built functional prototypes and honed my problem-solving skills. My robust GitHub presence reflects my commitment to community-driven, real-world solutions.
           </p>
           <ul className="list-disc">
             <li className='text-accent'>

@@ -8,6 +8,7 @@ import { Button, Wrapper } from '@/components';
 import { slideUp } from '@/styles/animations';
 
 import { motion } from 'framer-motion';
+import Link from 'next/link';
 
 const Hero = () => {
   const { cta, subtitle, title, tagline, description, specialText } =
@@ -68,7 +69,18 @@ const Hero = () => {
         animate="show"
         className="font-mono text-xs md:text-sm text-accent"
       >
-        {specialText}
+        <Link
+          href="https://www.upwork.com/freelancers/~01ca7c14b391e1581f"
+          target="_blank"
+          className="text-accent flex items-center"
+        >
+          {specialText}
+          <img
+            src="/upwork.svg"
+            alt="Upwork Logo"
+            className="inline-block ml-[1rem] w-28 h-auto"
+          />
+        </Link>
       </motion.p>
 
       {cta && (

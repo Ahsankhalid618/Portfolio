@@ -13,7 +13,8 @@ export const aboutSection: AboutSectionType = {
         'ExpressJs',
         'TailwindCSS',
         "MongoDB",
-        "PostgreSQL"
+        "PostgreSQL",
+        'Appwrite'
     ],
     },
     img: '/Ahsan.png',
