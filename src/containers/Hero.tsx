@@ -73,7 +73,7 @@ const Hero = () => {
         <Link
           href="https://www.upwork.com/freelancers/~01ca7c14b391e1581f"
           target="_blank"
-          className="text-accent flex items-center"
+          className="text-accent flex items-center focus:outline-none"
         >
           {specialText}
           <Image
