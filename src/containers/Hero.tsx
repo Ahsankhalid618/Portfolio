@@ -8,8 +8,8 @@ import { Button, Wrapper } from '@/components';
 import { slideUp } from '@/styles/animations';
 
 import { motion } from 'framer-motion';
-import Link from 'next/link';
 import Image from 'next/image';
+import Link from 'next/link';
 
 const Hero = () => {
   const { cta, subtitle, title, tagline, description, specialText } =
@@ -80,7 +80,7 @@ const Hero = () => {
             src="/upwork.svg"
             alt="Upwork Logo"
             width={112}
-            height={112} 
+            height={112}
             className="inline-block ml-[1rem]"
           />
         </Link>

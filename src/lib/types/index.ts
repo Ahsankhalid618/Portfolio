@@ -30,8 +30,10 @@ export type ProjectType = {
   url: string;
   year: number;
   img: string;
+  images?: string[];
   tags: string[];
   repo: string;
+  description?: string | string[];
 };
 
 export type StringKeyValueType = {

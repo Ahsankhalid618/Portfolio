@@ -19,10 +19,10 @@ const Projects = () => {
 
   return (
     <Wrapper id="projects" animate={false} {...getSectionAnimation}>
-      <motion.h2 className="heading-secondary text-center !mb-12">
+      <motion.h2 className="heading-secondary text-center !mb-16">
         {title}
       </motion.h2>
-      <div className="grid gap-6 grid-cols-auto-250 xs:grid-cols-auto-300 place-items-center">
+      <div className="flex flex-col items-center gap-16 max-w-6xl mx-auto">
         {sortByYear(visibleProjects).map((project, i) => {
           if (i < PROJECTS_INITIALLY) {
             return (
@@ -53,7 +53,7 @@ const Projects = () => {
       {projects.length > PROJECTS_INITIALLY && (
         <Button
           size="lg"
-          className="!mt-20"
+          className="!mt-24"
           center
           onClick={() => setShowMore((prev) => !prev)}
         >

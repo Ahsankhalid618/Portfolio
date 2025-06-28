@@ -11,6 +11,7 @@ import SocialIcon from './socials/SocialIcon';
 import SocialLink from './socials/SocialLink';
 import AuthorImage from './ui/AuthorImage';
 import Cursor from './ui/Cursor';
+import ImageGalleryModal from './ui/ImageGalleryModal';
 import ProjectCard from './ui/ProjectCard';
 import ShowLottie from './ui/ShowLottie';
 import Sidebar from './ui/Sidebar';
@@ -21,6 +22,7 @@ export {
   Button,
   Cursor,
   DarkModeButton,
+  ImageGalleryModal,
   Link,
   ListItem,
   NavButton,
