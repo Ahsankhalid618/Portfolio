@@ -20,24 +20,24 @@ export const projectsSection: ProjectsSectionType = {
         'Integrated PDF generation feature allowing users to export customized templates with company-specific branding',
         'Ensured data isolation and security for each company, supporting scalable and structured storage via Appwrite',
       ],
-      
+
       images: [
-        '/asoplus/1.png',
-        '/asoplus/2.png',
-        '/asoplus/3.png',
-        '/asoplus/4.png',
-        '/asoplus/5.png',
-        '/asoplus/6.png',
-        '/asoplus/7.png',
-        '/asoplus/8.png',
-        '/asoplus/9.png',
-        '/asoplus/10.png',
-        '/asoplus/11.png',
-        '/asoplus/12.png',
-        '/asoplus/13.png',
-        '/asoplus/14.png',
-        '/asoplus/15.png',
-        '/asoplus/16.png',
+        '/Asoplus/1.png',
+        '/Asoplus/2.png',
+        '/Asoplus/3.png',
+        '/Asoplus/4.png',
+        '/Asoplus/5.png',
+        '/Asoplus/6.png',
+        '/Asoplus/7.png',
+        '/Asoplus/8.png',
+        '/Asoplus/9.png',
+        '/Asoplus/10.png',
+        '/Asoplus/11.png',
+        '/Asoplus/12.png',
+        '/Asoplus/13.png',
+        '/Asoplus/14.png',
+        '/Asoplus/15.png',
+        '/Asoplus/16.png',
       ],
     },
     {
@@ -54,7 +54,7 @@ export const projectsSection: ProjectsSectionType = {
         'Developed automated payout system to return winnings through original payment methods',
         'Enforced IP-based geo-restrictions for region-specific access and compliance',
       ],
-      
+
       images: [
         '/plyzrx/1.png',
         '/plyzrx/2.png',
@@ -70,7 +70,6 @@ export const projectsSection: ProjectsSectionType = {
         '/plyzrx/12.png',
         '/plyzrx/13.png',
         '/plyzrx/14.png',
-        
       ],
       year: 2025,
       tags: ['NextJs', 'Unity', 'PayPal', 'Bankful'],
@@ -89,8 +88,7 @@ export const projectsSection: ProjectsSectionType = {
         'Created a modern, responsive UI with Tailwind CSS for smooth user experience across devices',
         'Ensured decentralized authentication and blockchain interaction without deploying custom smart contracts',
       ],
-      
-      
+
       images: [
         '/BlockchainCap/1.png',
         '/BlockchainCap/2.png',
@@ -120,7 +118,7 @@ export const projectsSection: ProjectsSectionType = {
         'Integrated MongoDB to persist messages and maintain structured chat history across sessions',
         'Designed a responsive, user-friendly UI for both desktop and mobile using modern web technologies',
       ],
-      
+
       images: [
         '/chatweb/1.png',
         '/chatweb/2.png',
@@ -149,12 +147,11 @@ export const projectsSection: ProjectsSectionType = {
         'Added export options including PDF generation and integrated Text-to-Speech functionality',
         'Optimized accuracy and performance for handling diverse document types and use cases',
       ],
-      
-      images: ['/ocr/1.png', '/ocr/2.png'],
+
+      images: ['/OCR/1.png', '/OCR/2.png'],
       year: 2024,
       tags: ['NextJs', 'Llama-OCR', 'ShadCN'],
     },
-    
 
     {
       id: getId(),
@@ -171,8 +168,8 @@ export const projectsSection: ProjectsSectionType = {
         'Developed a secure authentication system with NextAuth and persistent user data storage',
         'Designed responsive and modern layouts using ShadCN components for a polished user experience',
       ],
-      
-      images: ['/SkillSync/profile.png', '/SkillSync/2.png'],
+
+      images: ['/skillsync/profile.png', '/skillsync/2.png'],
       tags: ['NextJs', 'GitHubAPI', 'MongoDB', 'ShadCN'],
     },
     {
@@ -216,10 +213,9 @@ export const projectsSection: ProjectsSectionType = {
         'Created user-friendly interface for FAQ customization',
         'Developed export options for generated FAQ content',
       ],
-      tags: ['NextJs', 'TailwindCSS', 'Gemini-flash','Clerk'],
+      tags: ['NextJs', 'TailwindCSS', 'Gemini-flash', 'Clerk'],
     },
 
-    
     {
       id: getId(),
       name: 'RealEstate Pakistan',
