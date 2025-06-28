@@ -2,6 +2,7 @@
 import { ProjectType } from '@/lib/types';
 import { blurImageURL } from '@/lib/utils/config';
 
+import ImageGalleryModal from './ImageGalleryModal';
 import { Icon } from '@iconify/react';
 import {
   AnimatePresence,
@@ -12,7 +13,6 @@ import {
 } from 'framer-motion';
 import Image from 'next/image';
 import { useEffect, useRef, useState } from 'react';
-import ImageGalleryModal from './ImageGalleryModal';
 
 const ProjectCard = ({
   name,
@@ -129,6 +129,8 @@ const ProjectCard = ({
                   className="object-contain object-center h-full p-2"
                   sizes="(max-width: 768px) 100vw, 50vw"
                   priority={currentImage === 0}
+                  loading="eager"
+                  quality={75}
                 />
               </motion.div>
             </AnimatePresence>

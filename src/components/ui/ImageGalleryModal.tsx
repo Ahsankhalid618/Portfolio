@@ -1,5 +1,6 @@
 'use client';
 import { blurImageURL } from '@/lib/utils/config';
+
 import { Icon } from '@iconify/react';
 import { AnimatePresence, motion } from 'framer-motion';
 import Image from 'next/image';
@@ -102,6 +103,8 @@ const ImageGalleryModal = ({
                   className="object-contain"
                   sizes="(max-width: 1280px) 100vw, 1280px"
                   priority
+                  loading="eager"
+                  quality={80}
                 />
               </motion.div>
             </AnimatePresence>
