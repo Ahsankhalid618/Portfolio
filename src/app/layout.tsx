@@ -1,7 +1,7 @@
 import { seoData } from '@/lib/content/portfolio';
 import ThemeProvider from '@/lib/hooks/use-theme';
 import fontVariables from '@/lib/utils/fonts';
-
+import { SpeedInsights } from '@vercel/speed-insights/next';
 import Cursor from '@/components/ui/Cursor';
 
 import '../styles/globals.css';
@@ -83,6 +83,7 @@ export default function RootLayout({
         <Cursor className="hidden dark:lg:block" />
         <ThemeProvider>
           {children}
+          <SpeedInsights />
           <Analytics />
         </ThemeProvider>
       </body>
