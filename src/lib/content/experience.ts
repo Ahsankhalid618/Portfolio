@@ -3,9 +3,8 @@ import { ExperienceSectionType } from '@/lib/types/sections';
 export const experienceSection: ExperienceSectionType = {
   title: "where i've worked",
   experiences: [
-    
     {
-      company: "Web Evolution",
+      company: 'Web Evolution',
       companyUrl: 'https://webevolutioncompany.com/',
       role: 'Associate Software Engineer',
       started: 'October 2023',
@@ -31,7 +30,7 @@ export const experienceSection: ExperienceSectionType = {
       ],
     },
     {
-      company: "Bytewise Limited",
+      company: 'Bytewise Limited',
       companyUrl: 'https://www.bytewiseltd.com/',
       role: 'Intern Software Engineer',
       started: 'May 2023',
@@ -40,9 +39,8 @@ export const experienceSection: ExperienceSectionType = {
         'Developed 100+ user-facing features in NextJs and Node, reducing latency by 20% and improving overall optimization',
         'Developed and optimized REST API’s with ReactJs and NextJs, enhancing dataset retrieval by 30% for 10k+ requests.',
         'Improved and optimized site performance by 25% for 1,000+ daily visitors through advanced Redux and Next.js SSR.',
-        'Contributed to product improvements by implementing scalable web services in a cloud environment like (AWS, GCP).'
+        'Contributed to product improvements by implementing scalable web services in a cloud environment like (AWS, GCP).',
       ],
-    }
-,    
+    },
   ],
 };

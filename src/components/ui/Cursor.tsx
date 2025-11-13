@@ -31,7 +31,10 @@ const Cursor = ({ className = '' }: Props) => {
       style={{
         left: `${position.x}px`,
         top: `${position.y}px`,
+        willChange: 'transform',
+        contain: 'layout style paint',
       }}
+      aria-hidden="true"
     ></div>
   );
 };

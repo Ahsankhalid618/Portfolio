@@ -14,6 +14,10 @@ const NavButton = ({ onClick, className, navbarCollapsed }: Props) => {
     <button
       className={`${className} w-7 h-7 group transition focus:outline-none`}
       onClick={onClick}
+      aria-label={
+        navbarCollapsed ? 'Close navigation menu' : 'Open navigation menu'
+      }
+      aria-expanded={navbarCollapsed}
     >
       <div
         className={`flex flex-col items-end relative ${

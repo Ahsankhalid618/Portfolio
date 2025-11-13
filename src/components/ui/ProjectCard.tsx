@@ -133,9 +133,11 @@ const ProjectCard = ({
                   placeholder="blur"
                   blurDataURL={blurImageURL}
                   className="object-contain object-center h-full p-2"
-                  sizes="(max-width: 768px) 100vw, 50vw"
+                  sizes="(max-width: 640px) 100vw, (max-width: 768px) 100vw, (max-width: 1024px) 50vw, 540px"
                   priority={currentImage === 0 && isFirstProject}
-                  loading={currentImage === 0 && isFirstProject ? "eager" : "lazy"}
+                  loading={
+                    currentImage === 0 && isFirstProject ? 'eager' : 'lazy'
+                  }
                   quality={75}
                 />
               </motion.div>
@@ -210,8 +212,14 @@ const ProjectCard = ({
                   className="flex items-center space-x-2 px-4 py-2 rounded-md bg-bg-primary hover:bg-accent hover:text-white transition-all duration-300"
                   target="_blank"
                   rel="noopener noreferrer"
+                  aria-label={`View ${name} project on GitHub`}
                 >
-                  <Icon icon="tabler:brand-github" width={20} height={20} />
+                  <Icon
+                    icon="tabler:brand-github"
+                    width={20}
+                    height={20}
+                    aria-hidden="true"
+                  />
                   <span className="text-sm">GitHub</span>
                 </a>
               )}
@@ -222,8 +230,14 @@ const ProjectCard = ({
                   className="flex items-center space-x-2 px-4 py-2 rounded-md bg-accent text-white hover:bg-opacity-90 transition-all duration-300"
                   target="_blank"
                   rel="noopener noreferrer"
+                  aria-label={`View ${name} project preview`}
                 >
-                  <Icon icon="ci:external-link" width={20} height={20} />
+                  <Icon
+                    icon="ci:external-link"
+                    width={20}
+                    height={20}
+                    aria-hidden="true"
+                  />
                   <span className="text-sm">Preview</span>
                 </a>
               )}

@@ -24,12 +24,14 @@ const DarkModeButton = ({
     <motion.button
       className={`rounded-lg p-1 hover:text-accent focus:text-accent focus:outline-none focus:bg-bg-secondary cursor-pointer w-fit ${className} duration-200`}
       onClick={clickHandler}
+      aria-label={isDarkMode ? 'Switch to light mode' : 'Switch to dark mode'}
       {...rest}
     >
       <Icon
         icon={isDarkMode ? 'carbon:sun' : 'ph:moon'}
         width="26"
         height="26"
+        aria-hidden="true"
       />
     </motion.button>
   );

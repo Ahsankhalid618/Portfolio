@@ -6,7 +6,6 @@ import { Skill, Wrapper } from '@/components';
 
 import { getSectionAnimation } from '@/styles/animations';
 
-
 const Skills = () => {
   const { title, skills } = skillsSection;
   const { isDarkMode } = useTheme();

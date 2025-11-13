@@ -17,7 +17,8 @@ const Hero = () => {
 
   const windowWidth = useWindowWidth();
   const md = getBreakpointsWidth('md');
-  const DEFAULT_ANIMATION_DELAY = windowWidth <= md ? 0.9 : 1.7;
+  // Reduced delays for better LCP - LCP element (tagline) should appear quickly
+  const DEFAULT_ANIMATION_DELAY = windowWidth <= md ? 0.3 : 0.4;
 
   const getAnimationDelay = (i: number, increment = 0.15) =>
     DEFAULT_ANIMATION_DELAY + increment * i;
@@ -46,7 +47,7 @@ const Hero = () => {
           {title}
         </motion.h1>
         <motion.h1
-          variants={slideUp({ delay: getAnimationDelay(2) })}
+          variants={slideUp({ delay: getAnimationDelay(1.5), duration: 0.8 })}
           initial="hidden"
           animate="show"
           className="leading-[1.2]"
@@ -74,6 +75,7 @@ const Hero = () => {
           href="https://www.upwork.com/freelancers/~01ca7c14b391e1581f"
           target="_blank"
           className="text-accent flex items-center focus:outline-none"
+          aria-label="Visit Upwork profile"
         >
           {specialText}
           <Image

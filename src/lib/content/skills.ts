@@ -50,14 +50,17 @@ export const skillsSection: SkillsSectionType = {
         dark: '/lotties/opensource.json',
       },
       points: [
-        "Achieved 12+ successful PRs in Hacktoberfest 2023 & 2024, showcasing consistent open-source contributions.",
+        'Achieved 12+ successful PRs in Hacktoberfest 2023 & 2024, showcasing consistent open-source contributions.',
         'Top 200 in GSSoC among 5000 participants, excelling in open-source development.',
         'Competed in META HackerCup, NASA Space Apps, and MLH hackathons, sharpening problem-solving and teamwork.',
-        'Active GitHub contributor, building a strong open-source presence and technical expertise.'
+        'Active GitHub contributor, building a strong open-source presence and technical expertise.',
       ],
       softwareSkills: [
         { name: 'Github', icon: 'skill-icons:github-light' },
-        { name: 'Major League Hacking', icon: 'simple-icons:majorleaguehacking' },
+        {
+          name: 'Major League Hacking',
+          icon: 'simple-icons:majorleaguehacking',
+        },
         { name: 'Devpost', icon: 'simple-icons:devpost' },
         { name: 'GSSoC', icon: 'octicon:feed-pull-request-open-16' },
       ],

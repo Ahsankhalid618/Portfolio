@@ -13,8 +13,9 @@ const Link = ({
   withPadding = false,
   ...rest
 }: Props) => {
-  const ariaLabel = typeof children === 'string' ? children : `Link to ${href || 'page'}`;
-  
+  const ariaLabel =
+    typeof children === 'string' ? children : `Link to ${href || 'page'}`;
+
   if (withPadding) {
     return (
       <a

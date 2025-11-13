@@ -121,7 +121,7 @@ const Navbar = () => {
               </NavItem>
             ))}
 
-            <div className="flex items-center justify-between gap-5 xl:gap-6">
+            <li className="flex items-center justify-between gap-5 xl:gap-6">
               {cta && (
                 <Button
                   type="link"
@@ -146,7 +146,7 @@ const Navbar = () => {
                 initial="hidden"
                 animate="show"
               />
-            </div>
+            </li>
           </ul>
         </nav>
       )}

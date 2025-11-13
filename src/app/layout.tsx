@@ -1,11 +1,12 @@
 import { seoData } from '@/lib/content/portfolio';
 import ThemeProvider from '@/lib/hooks/use-theme';
 import fontVariables from '@/lib/utils/fonts';
-import { SpeedInsights } from '@vercel/speed-insights/next';
+
 import Cursor from '@/components/ui/Cursor';
 
 import '../styles/globals.css';
 import { Analytics } from '@vercel/analytics/next';
+import { SpeedInsights } from '@vercel/speed-insights/next';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {

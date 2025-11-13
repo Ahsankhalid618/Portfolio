@@ -1,4 +1,3 @@
-
 import { StringKeyValueType } from '../types';
 
 export const socialLinks: StringKeyValueType = {
@@ -19,8 +18,7 @@ export const seoData = {
   description:
     'Ahsan Khalid is a fullstack developer who specializes in building (and occasionally designing) exceptional visual interfaces.',
   author: author.name,
-  image:
-    '',
+  image: '',
   url: 'https://github.com/Ahsankhalid618/',
   keywords: [
     'Ahsan',

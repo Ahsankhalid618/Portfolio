@@ -8,7 +8,6 @@ const ShowLottie = dynamic(() => import('@/components/ui/ShowLottie'), {
   ssr: false,
   loading: () => <div className="max-w-sm md:max-w-md h-64" />,
 });
-
 const NotFound = () => {
   return (
     <Layout className="grid h-screen place-items-center">
