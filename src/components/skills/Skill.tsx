@@ -3,12 +3,13 @@ import { SoftwareSkillType } from '@/lib/types';
 import { getId } from '@/lib/utils/helper';
 
 import { ListItem, SkillIcon } from '@/components';
-import dynamic from 'next/dynamic';
 
 import { motion, MotionProps } from 'framer-motion';
+import dynamic from 'next/dynamic';
 
 const ShowLottie = dynamic(() => import('@/components/ui/ShowLottie'), {
   ssr: false,
+  loading: () => <div className="md:min-h-[448px] md:min-w-[448px]" />,
 });
 
 type Props = {

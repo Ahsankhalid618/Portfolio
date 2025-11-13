@@ -5,7 +5,7 @@ import { useTheme } from '@/lib/hooks/use-theme';
 import { Skill, Wrapper } from '@/components';
 
 import { getSectionAnimation } from '@/styles/animations';
-import { Link } from 'react-router-dom';
+
 
 const Skills = () => {
   const { title, skills } = skillsSection;

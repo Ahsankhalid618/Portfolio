@@ -2,11 +2,12 @@
 import { ProjectType } from '@/lib/types';
 import { blurImageURL } from '@/lib/utils/config';
 
-import dynamic from 'next/dynamic';
 import { Icon } from '@iconify/react';
+import dynamic from 'next/dynamic';
 
 const ImageGalleryModal = dynamic(() => import('./ImageGalleryModal'), {
   ssr: false,
+  loading: () => null,
 });
 import {
   AnimatePresence,

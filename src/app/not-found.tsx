@@ -1,9 +1,12 @@
+'use client';
 import { Button } from '@/components';
 import { Layout } from '@/containers';
+
 import dynamic from 'next/dynamic';
 
 const ShowLottie = dynamic(() => import('@/components/ui/ShowLottie'), {
   ssr: false,
+  loading: () => <div className="max-w-sm md:max-w-md h-64" />,
 });
 
 const NotFound = () => {
