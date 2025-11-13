@@ -82,6 +82,7 @@ const Hero = () => {
             width={112}
             height={112}
             className="inline-block ml-[1rem]"
+            loading="lazy"
           />
         </Link>
       </motion.p>

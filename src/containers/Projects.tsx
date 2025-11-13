@@ -34,6 +34,7 @@ const Projects = () => {
                 whileInView="show"
                 custom={i}
                 viewport={{ once: true }}
+                isFirstProject={i === 0}
               />
             );
           }
@@ -46,6 +47,7 @@ const Projects = () => {
               initial="hidden"
               animate="show"
               custom={i - PROJECTS_INITIALLY}
+              isFirstProject={false}
             />
           );
         })}

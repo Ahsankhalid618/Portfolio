@@ -28,6 +28,7 @@ const SkillIcon = ({ src, name }: Props) => {
           width={40}
           height={40}
           className="w-10 h-10"
+          loading="lazy"
         />
       ) : isDevpost ? (
         <Image
@@ -36,6 +37,7 @@ const SkillIcon = ({ src, name }: Props) => {
           width={40}
           height={40}
           className="w-10 h-10"
+          loading="lazy"
         />
       ) : isGSSOC ? (
         <Image
@@ -44,6 +46,7 @@ const SkillIcon = ({ src, name }: Props) => {
           width={40}
           height={40}
           className="w-10 h-10"
+          loading="lazy"
         />
       ) : (
         <Icon icon={src} width="32" height="32" style={{ color: iconColor }} />

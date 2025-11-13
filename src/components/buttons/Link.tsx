@@ -13,12 +13,15 @@ const Link = ({
   withPadding = false,
   ...rest
 }: Props) => {
+  const ariaLabel = typeof children === 'string' ? children : `Link to ${href || 'page'}`;
+  
   if (withPadding) {
     return (
       <a
         href={href}
         className={`group ${className}`}
         onClick={onClick}
+        aria-label={ariaLabel}
         {...rest}
       >
         <span className="relative w-fit">
@@ -34,6 +37,7 @@ const Link = ({
       href={href}
       className={`relative ${className} group`}
       onClick={onClick}
+      aria-label={ariaLabel}
       {...rest}
     >
       {children}

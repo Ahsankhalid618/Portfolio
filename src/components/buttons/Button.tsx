@@ -67,6 +67,7 @@ const Button = (props: Props & MotionProps) => {
           href={props.href}
           target={sameTab ? '_self' : '_blank'}
           rel="noopener noreferrer"
+          aria-label={typeof children === 'string' ? children : `Link to ${props.href}`}
         >
           {children}
         </Link>
@@ -76,7 +77,12 @@ const Button = (props: Props & MotionProps) => {
 
   if (type == 'button') {
     return (
-      <button type={type} className={classes} onClick={props.onClick}>
+      <button 
+        type={type} 
+        className={classes} 
+        onClick={props.onClick}
+        aria-label={typeof children === 'string' ? children : 'Button'}
+      >
         {children}
       </button>
     );

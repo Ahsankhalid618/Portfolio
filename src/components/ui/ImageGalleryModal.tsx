@@ -102,8 +102,6 @@ const ImageGalleryModal = ({
                   blurDataURL={blurImageURL}
                   className="object-contain"
                   sizes="(max-width: 1280px) 100vw, 1280px"
-                  priority
-                  loading="eager"
                   quality={80}
                 />
               </motion.div>

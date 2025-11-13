@@ -2,8 +2,12 @@
 import { ProjectType } from '@/lib/types';
 import { blurImageURL } from '@/lib/utils/config';
 
-import ImageGalleryModal from './ImageGalleryModal';
+import dynamic from 'next/dynamic';
 import { Icon } from '@iconify/react';
+
+const ImageGalleryModal = dynamic(() => import('./ImageGalleryModal'), {
+  ssr: false,
+});
 import {
   AnimatePresence,
   motion,
@@ -23,8 +27,9 @@ const ProjectCard = ({
   images,
   tags,
   description,
+  isFirstProject = false,
   ...rest
-}: ProjectType & MotionProps) => {
+}: ProjectType & MotionProps & { isFirstProject?: boolean }) => {
   // To avoid hydration failed error
   const [domLoaded, setDomLoaded] = useState(false);
   const cardRef = useRef<HTMLDivElement>(null);
@@ -128,8 +133,8 @@ const ProjectCard = ({
                   blurDataURL={blurImageURL}
                   className="object-contain object-center h-full p-2"
                   sizes="(max-width: 768px) 100vw, 50vw"
-                  priority={currentImage === 0}
-                  loading="eager"
+                  priority={currentImage === 0 && isFirstProject}
+                  loading={currentImage === 0 && isFirstProject ? "eager" : "lazy"}
                   quality={75}
                 />
               </motion.div>

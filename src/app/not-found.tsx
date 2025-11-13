@@ -1,5 +1,10 @@
-import { Button, ShowLottie } from '@/components';
+import { Button } from '@/components';
 import { Layout } from '@/containers';
+import dynamic from 'next/dynamic';
+
+const ShowLottie = dynamic(() => import('@/components/ui/ShowLottie'), {
+  ssr: false,
+});
 
 const NotFound = () => {
   return (

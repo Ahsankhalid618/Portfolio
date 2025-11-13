@@ -3,6 +3,9 @@ import { Inter, Roboto_Mono } from 'next/font/google';
 const inter = Inter({
   variable: '--font-inter',
   subsets: ['latin'],
+  display: 'swap',
+  preload: true,
+  fallback: ['system-ui', 'arial'],
   weight: [
     '400', // Regular
     '500', // Medium
@@ -14,6 +17,8 @@ const robotoMono = Roboto_Mono({
   variable: '--font-roboto-mono',
   subsets: ['latin'],
   display: 'swap',
+  preload: true,
+  fallback: ['monospace'],
   weight: [
     '400', // Regular
     '500', // Medium

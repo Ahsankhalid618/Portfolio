@@ -2,9 +2,14 @@
 import { SoftwareSkillType } from '@/lib/types';
 import { getId } from '@/lib/utils/helper';
 
-import { ListItem, ShowLottie, SkillIcon } from '@/components';
+import { ListItem, SkillIcon } from '@/components';
+import dynamic from 'next/dynamic';
 
 import { motion, MotionProps } from 'framer-motion';
+
+const ShowLottie = dynamic(() => import('@/components/ui/ShowLottie'), {
+  ssr: false,
+});
 
 type Props = {
   lottie?: any;
